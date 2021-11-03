@@ -2,7 +2,7 @@ var option = "";
 var dataSet ;
 
 
-function init() {
+function startup() {
 
   d3.json("samples.json").then(function(data){
     dataSet = data;
